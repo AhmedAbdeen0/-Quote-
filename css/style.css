@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: url(../image/4bd27bbd528ebb2cc269e635fc095564.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    line-height: 70px;
+}
+.containeritem{
+    position: relative;
+    top: 20%;
+}
+.containeritem h1{
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.containeritem p{
+    font-size: 35px;
+}
+.containeritem button{
+    width: 250px;
+    height: 80px;
+    background-color:rgba(100, 148, 237, 0.727);
+    color:black;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.containeritem button:hover{
+    background-color: rgba(255, 228, 196, 0.832);
+}
